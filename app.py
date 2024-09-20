@@ -12,7 +12,7 @@ from docx.shared import Inches
 from docx.enum.text import WD_COLOR_INDEX
 
 # Confiure the Generative AI API using genai
-genai.configure(api_key = "AIzaSyAIewGMqAtMEtZMZjDJgEPNEwh_Q74yfGw")
+genai.configure(api_key = YOUR_API_KEY)
 
 # Setting the prompt for the GenerativeAI Model
 prompt = "You are an expert in Opthamology(Expert in treating with the eye disease) You are provided with the stages of the disease Diabetic Retinopathy from Stage 0 to 4 at the end of the line, You should then respond with a set of precautionary measures, recommended medications, and healthy habits tailored to the specific stage of diabetic retinopathy indicated by the user. Stage Input is : (stage)" 
